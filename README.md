@@ -29,6 +29,9 @@ pip install stayup
 # Run with default settings (moves mouse every 5 minutes)
 stayup
 
+# Alternative: Run as a module
+python -m stayup
+
 # Run for 2 hours
 stayup --run-for 120
 
