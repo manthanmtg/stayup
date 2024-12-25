@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stayup"
+version = "0.1.0"
+description = "A modern Python package to prevent system sleep by simulating mouse movements"
+readme = "README.md"
+requires-python = ">=3.6"
+license = "MIT"
+authors = [
+    { name = "manthanby" },
+]
+dependencies = [
+    "pyautogui>=0.9.53",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/manthanby/stayup"
+Repository = "https://github.com/manthanby/stayup.git"
+
+[project.scripts]
+stayup = "stayup.cli:main"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+dev = [
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+]
