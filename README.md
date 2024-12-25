@@ -1,7 +1,7 @@
 # StayUp 🖱️
 
 [![PyPI version](https://badge.fury.io/py/stayup.svg)](https://badge.fury.io/py/stayup)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GNU](https://img.shields.io/badge/License-GNU-brightgreen.svg)](https://github.com/manthanmtg/stayup/blob/main/LICENSE)
 [![Python Versions](https://img.shields.io/pypi/pyversions/stayup.svg)](https://pypi.org/project/stayup/)
 
 A modern Python package to prevent system sleep by simulating small mouse movements. Perfect for keeping your system awake during long downloads, installations, or when you need to maintain an active system state. 💻✨
@@ -73,4 +73,4 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE
 ![GitHub forks](https://img.shields.io/github/forks/manthanmtg/stayup?style=social)
 
 ---
-Made with ❤️ by the StayUp team
+Made with ❤️ by the [manthanby.tech](https://manthanby.tech)
